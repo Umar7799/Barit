@@ -67,7 +67,7 @@ const Navbar = () => {
                     <Link to="contact" smooth={true} offset={-50} onClick={() => setHamburgerOpen(false)} className="block cursor-pointer">Contact</Link>
 
                     <div className="border-2 border-white rounded-lg px-6 py-2 mx-auto w-fit">
-                        <h1>Resume</h1>
+                    <h1><a href={ResumePdf} target="_blank" rel="noopener noreferrer">Resume</a></h1>
                     </div>
                 </div>
             </div>
