@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import '../App.css'
 import LogoPic from '../pics/logoa.png'
+import ResumePdf from '../pics/BekhruzResu.pdf'
 import { animateScroll as scroll, Link } from 'react-scroll';
 import Hamburger from 'hamburger-react'
 
@@ -45,7 +46,7 @@ const Navbar = () => {
                 <Link to="contact" smooth={true} spy={true} offset={-50} className="cursor-pointer hover:text-brand-accent"><h1>Contact</h1></Link>
 
                 <div className="border-2 border-[#f5f5f5] rounded-lg px-2 py-1 cursor-pointer hover:bg-white hover:text-black transition-colors">
-                    <h1>Resume</h1>
+                    <h1><a href={ResumePdf} target="_blank" rel="noopener noreferrer">Resume</a></h1>
                 </div>
             </div>
 
