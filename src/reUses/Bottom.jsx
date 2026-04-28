@@ -50,10 +50,10 @@ const Bottom = () => {
                                     </div>
                                     <div className='space-y-5'>
                                         <div>
-                                            <a className='flex items-center space-x-2' href=""><img className='w-10' src={GmailPic} alt="" /><h1 className='underline'>+966 573 705 996</h1></a>
+                                            <a className='flex items-center space-x-2' href=""><img className='w-10' src={GmailPic} alt="" /><h1 className='underline'>behruzinakov7799@gmail.com</h1></a>
                                         </div>
                                         <div>
-                                            <a className='flex items-center space-x-2' href=""><img className='w-10 invert brightness-0' src={EmailPic} alt="" /><h1 className='underline'>+998 91 480 80 07</h1></a>
+                                            <a className='flex items-center space-x-2' href=""><img className='w-10 invert brightness-0' src={EmailPic} alt="" /><h1 className='underline'>www.behruz00@mail.ru</h1></a>
                                         </div>
                                     </div>
                                 </div>
