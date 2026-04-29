@@ -68,10 +68,10 @@ const SignDrinks = () => {
 
                     <div className='shadow border-2 border-[#252526] rounded-xl p-4'>
                         <div className='flex justify-between pb-2'>
-                            <h1>PINK LADY</h1>
+                            <h1>JADE FIZZ</h1>
                             <div className='flex items-center space-x-0.5 text-sm'>
                                 <img className='h-6 invert brightness-0' src={JadeIcon} alt="" />
-                                <h1>SWEET</h1>
+                                <h1>EXOTIC</h1>
                             </div>
                         </div>
                         <div className='flex space-x-4'>
